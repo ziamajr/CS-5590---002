@@ -1,0 +1,156 @@
+/*CSS Reset - use to resets the styling of all HTML elements for all browsers*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	background-color: #333;
+}
+
+.head {
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.head ul{
+	display: flex;
+    justify-content: flex-end;
+}
+
+.head li {
+	padding: 5px;
+    font-weight: 700px;
+    font-size: 15px;
+    
+}
+
+div.container {
+	margin: 0px auto;
+    max-width: 900px;
+	background-color: white;
+} 
+
+header {
+	padding: 10px;
+    background-color: #00ffcc;
+    font-size: 17px;	
+}
+
+.content{
+	display: flex;
+}
+
+article {
+	float: right;
+    width: 660px;
+	padding:10px;
+}
+
+.sidebar{
+    float:left;
+	width:160px;
+	padding:10px;
+}
+
+.sidebar ul {
+   display: flex;    
+   flex-direction: column;     
+}
+
+.sidebar li {
+    padding: 10px;
+
+}
+
+footer {
+    background-color: #00ffcc;
+	text-align: center;
+    clear: both;
+    font-size: 17px;
+	padding: 20px 0px;
+}
+
+.foot {
+    display:flex;
+    justify-content: center;
+}
+
+.foot ul{
+	display: flex;
+
+}
+
+.foot li {
+    display: flex;
+	padding: 10px;
+    font-weight: 700px;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 480px) {
+    header, .content, .foot {
+        position: relative;
+    }
+    
+    .sidebar {
+        
+    }
+    
+    article {
+        
+    }
+    
+   .head ul {
+        
+    }
+

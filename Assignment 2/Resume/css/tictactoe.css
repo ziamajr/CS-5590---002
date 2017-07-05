@@ -1,0 +1,11 @@
+table, th, td{
+    border: 1px solid black;
+	margin: auto;
+}
+
+.squares{
+    height: 80px;
+    width: 80px;
+	font-size: 40pt;
+	text-align: center;
+}
