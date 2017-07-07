@@ -1,0 +1,33 @@
+<!–– David Ziama
+     Class ID 3
+     July 7, 2017
+     Tetris Game
+     Goal of the game
+     1. When same color blocks are in single row, that row should collapse
+     2. Include sound track while playing the game
+––>
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <title>Tetris Game</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="author" content="David Ziama">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+</head>
+    
+<body background = "images/bckgrd.jpg">
+    
+<embed src="sounds/tetris-gameboy-02.mp3" autostart="true" loop="true" hidden ="true"></embed>    
+    
+    <p><h2>Welcome to TETRIS!!!!!!!</h2></p>
+    <div id="points"></div>
+    <!–– defining my canvas  ––>
+    <canvas id="game" width="240" height="400" />
+    <!–– referencing my game code in script tag ––>
+    <script src="js/code.js"></script>
+</body>
+</html>    
+    
