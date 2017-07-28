@@ -1,0 +1,92 @@
+  {
+    "name": "Soccer Leagues",
+    "parent": "Leagues",
+    "children": [
+      {
+        "name": "English Premier League",
+        "parent": "Leagues",
+        "children": [
+          {
+            "name": "Arsenal",
+            "parent": "EPL"
+          },
+          {
+            "name": "Chelsea",
+            "parent": "EPL"
+          },
+          {
+            "name": "Manchester United",
+            "parent": "EPL"
+          },
+          {
+            "name": "Liverpool",
+            "parent": "EPL"
+          }
+        ]
+      },
+      {
+        "name": "La Liga",
+        "parent": "Leagues",
+        "children": [
+          {
+            "name": "Real Madrid",
+            "parent": "Liga"
+          },
+          {
+            "name": "Barcelona",
+            "parent": "Liga"
+          },
+          {
+            "name": "Atheletico Madrid",
+            "parent": "Liga"
+          },
+          {
+            "name": "Malaga",
+            "parent": "Liga"
+          }
+        ]
+      },
+      {
+        "name": "French Ligue 1",
+        "parent": "Leagues",
+        "children": [
+          {
+            "name": "Paris Saint-Germain",
+            "parent": "French"
+          },
+          {
+            "name": "Lyon",
+            "parent": "French"
+          }
+        ]
+      },
+      {
+        "name": "Bundesliga",
+        "parent": "Leagues",
+        "children": [
+          {
+            "name": "Borussia Dortmund",
+            "parent": "German"
+          },
+          {
+            "name": "Bayern Munich",
+            "parent": "German"
+          },
+          {
+            "name": "Bayer 04 Leverkusen",
+            "parent": "German"
+          }
+        ]
+      },
+      {
+        "name": "Major League Soccer",
+        "parent": "Leagues",
+        "children": [
+          {
+            "name": "Sporting KC",
+            "parent": "MLS"
+          }
+        ]
+      }
+    ]
+ }
