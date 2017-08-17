@@ -1,0 +1,35 @@
+
+<!-- David Ziama
+     Class ID 3 
+     Lab Assignment 5 - Part 2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <title>Weather API</title>
+         <link rel = "stylesheet" href = "style.css">
+         <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width,initial-scale=1">
+         <script src = "weather.js"></script>
+    </head>    
+        
+
+    <body style="background-color:powderblue;">
+       <div id = "container">
+          <header>
+             <h1>Weather API</h1>
+               <p>Please enter your city:</p>
+          </header>
+
+           <section>
+                    <p><input type="text" id="cityname"></p>
+                    <button onclick="getWeather()">Submit</button>
+                    <div class="weatherResponse"></div>
+     
+        </section>
+       </div>
+    </body>
+</html>
+
